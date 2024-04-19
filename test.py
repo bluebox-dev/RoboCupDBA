@@ -1,3 +1,6 @@
 import RoboCupDBA
-# print(RoboCupDBA.Insert(link="mongodb://root:6yHnmju%26@localhost:27017/",db="data",collection="data",name="1",x=0.0,y=0.0,theta=0.0,typeObj="A"))
-# print(RoboCupDBA.Query(link="mongodb://root:6yHnmju%26@localhost:27017/",db="data",collection="data",json={"_id":'1'}))
+import json
+# print(RoboCupDBA.Insert(link="mongodb://root:aims@localhost:27017/",db="data",collection="map",name="2",x=0.2,y=0.0,theta=0.1,typeObj="A"))
+# data = RoboCupDBA.Query(link="mongodb://root:aims@localhost:27017/",db="data",collection="map",data={})
+# data = json.loads(data)
+# print(data["id"],data["localtion"]["x"])
