@@ -1,0 +1,9 @@
+{
+    "id": "A",                      // String : "A" -> Station ID
+    "location": {
+        "theta": 0.0,               // Double : 0.0 ->  Rotation
+        "x": 0.1,                   // Double : 0.1 ->  X-Axis
+        "y": 0.2                    // Double : 0.2 ->  Y-Axis
+    },
+    "type": "B"                     // String : "B" -> Back | "F" -> Front 
+}
